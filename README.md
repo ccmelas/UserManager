@@ -113,3 +113,17 @@ password: janedoe
 
 ### Author
 **Olajide Bolaji 'Nuel** - Software Developer at Andela
+
+
+### Additional Info for docker (By Chiemela Chinedum)
+To run app in docker, `cd` into the project directory and run:
+```
+docker-compose build
+
+docker-compose up
+```
+
+Do not forget to save a copy of `sample.env` as `.env` and replace the mongo url with:
+```
+DB_URL='mongodb://mongo:27017/databaseName'
+```
